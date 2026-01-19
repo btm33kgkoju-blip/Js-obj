@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h2>My brother's, father's and mother's age</h2>
+    <p id="bro"></p>
+    <p id="dad"></p>
+    <p id="mom"></p>
+    <script>
+      var person = {
+        firstName: " Ayurved ",
+        age: 6,
+      };
+      document.getElementById("bro").innerHTML= person.firstName + " is "  + person.age + " years old ";
+      var person = {
+        firstName: " Balaram ",
+        age: 45,
+      };
+      document.getElementById("dad").innerHTML= person.firstName + " is "  + person.age + " years old ";
+      var person = {
+        firstName: " Ram Devi ",
+        age: 40,
+      };
+      document.getElementById("mom").innerHTML= person.firstName + " is "  + person.age + " years old ";
+    </script>
+  </body>
+</html>
